@@ -1,0 +1,54 @@
+.body1{
+    background-color: rgb(215, 220, 220);
+    height: 100%;
+}
+.userProfile{
+    margin-left: 100px;
+
+}
+.listgrp{
+    color: black;
+    cursor: pointer;
+    
+}
+.link-tag{
+    color: black;
+    cursor: pointer;
+    color: inherit;
+}
+.link-tag:hover{
+    color: inherit;
+}
+
+
+.listgrp:hover{
+    background-color: #0597f2;
+    
+}
+.input-box{
+    border: 1px solid black;
+}
+.submitbtn{
+    display: flex;
+    justify-content: end;
+}
+.reset{
+    color: aqua;
+}
+.card-top-image{
+    height: 300px;
+}
+.userBadge{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.new-box{
+    height: 90vh;
+}
+.userPosts:hover{
+    transition: .5s;
+
+    box-shadow: 2px px 1px 1px black;
+    transform: scale(1.1);
+}

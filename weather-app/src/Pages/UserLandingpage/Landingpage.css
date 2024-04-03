@@ -1,0 +1,155 @@
+
+/* design for main div classname:body */
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+    background: linear-gradient(to bottom right, #0597f2, #bad2f9);
+
+    /* background: url('https://images.hdqwalls.com/download/stars-planets-4k-b1-1920x1080.jpg'); */
+    background-size: cover;
+    background-position: center;
+}
+
+.homePage{
+    position: relative;
+    width: 400px;
+    height: 600px;
+    /* background: purple; */
+    border-radius: 16px;
+    padding: 20px;
+    border: 2px solid rgba(255,255,255,0.2);
+    backdrop-filter: blur( 30px);
+    box-shadow: 0 0 10px rgba(225,225,225,.2);
+
+}
+.search-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    /* background: slateblue; */
+    display: flex;
+    align-items: center;
+}
+.search-box input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    outline: none;
+    border-radius: 10px;
+    font-size: 22px;
+    color: #ffff;
+    font-weight: 500;
+    /* text-transform: uppercase; */
+    padding: 0 48px 0 42px;
+
+}
+.search-box input::placeholder{
+    color: #ffff;
+}
+.search-box button{
+    position: absolute;
+    right: 0;
+    width: 40px;
+    height: 100px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 28px;
+    color: #ffff;
+    padding: 0 40px 0 5px;
+    cursor: pointer;
+}
+.search-box .icons{
+    position: absolute;
+    left: 10px;
+    font-size: 25px;
+    color: #ffff;
+
+}
+
+.weather-box {
+    text-align: center;
+    margin: 30px 0;
+    color: #ffff;
+    padding: 0 30px;
+
+}
+
+.weather-box img{
+    width: 40%;
+
+}
+
+.weather-box .temparature{
+    position: relative;
+    font-size: 64px;
+    line-height: 1;
+    font-weight: 700;
+    color: #ffff;
+    margin: 20px 0 6px -30px;
+
+}
+.weather-box .temparature span{
+    position: absolute;
+    font-size: 35px;
+    margin-left: 4px;
+
+}
+
+.weather-box .description{
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.weather-details{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    color: #ffff;
+}
+.weather-details .humidity,
+.weather-details .wind {
+
+    display: flex;
+    align-items: center;
+    width: 50%;
+
+}
+.weather-details .icons {
+    font-size: 50px;
+    margin-right: 10px;
+}
+.weather-details span {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 500;
+}
+.weather-details p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.weather-details .humidity{
+    padding-left: 20px;
+    justify-content: flex-start;
+}
+.weather-details .wind{
+    padding-right: 20px;
+    justify-content: flex-end;
+}
+.content{
+    text-align: justify;
+}
+
+.searchbtn :hover{
+    color: #3b82f6;
+}

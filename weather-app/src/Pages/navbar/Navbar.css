@@ -1,0 +1,13 @@
+@import 'https://fonts.googleapis.com/css2?family=Monoton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap';
+.weather{
+    font-family: "Monoton", sans-serif;
+    /* font-weight: 400; */
+    font-size: larger;
+    font-style: normal;
+}
+.navbar{
+   background: linear-gradient(to bottom right, #0597f2, #3b82f6);
+    height: 75px;
+    border-bottom: none;
+    
+}
